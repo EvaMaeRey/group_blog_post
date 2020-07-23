@@ -1,0 +1,28 @@
+---
+title: "Blog post!"
+author: "Evangeline Reynolds"
+date: "7/22/2020"
+output: html_document
+---
+
+
+Have you heard of code-movies or "flipbooks"? Maybe not? I'm so pleased to tell you about this mode of communication, and a tool that can help you build them {flipbookr}.  The idea of flipbooks is to show you details of how to get from point A to point B using a data manipulation, analysis, or visualization pipeline.   Often when using tools like R markdown or Jupytr notebooks, we usually only see the input and output for a pipeline of steps.   Having the inputs and outputs nearby is incredibly helpful in communicating the big picture of what is being accomplished with a chunk of code.   The ability to communicate how input and output relate has led to notebook-type documents being extremely popular.   But newcomers and even seasoned practitioners might have trouble figuring out what individual steps in a pipeline accomplish.   This is where flipbooks come in! They seek to illuminate what's going on in the in-between steps.   This is done by showing in-between outputs as the code is built up.   The ‘flipbook’ technique is one that you see from time to time in code presentations.  Presenters realize that showing a code pipeline as it is built will help audiences.
+
+Yet putting together this experience is pretty burdensome for creators. There's a lot of copy-paste that has to happen to create the right partial code sequence -- in which you can mix yourself up. And if you want to change the overall pipeline - you might find yourself in a pit of despair. All that copy and paste work needs to be revisited.  The package {flipbookr}'s goal is to assist in creating these easy-to-follow-along-with step-by-step experiences of flipbooks.   So what does flipbookr do? First, it parses entire code chunks as inputs. Then, it identifies good break points at which output can be shown. Given the pause points, it then constructs partial builds of code. Finally then these partial builds are delivered alongside their associated outputs to a slideshow tool (xaringan!). This gives you a movie-like experience. You can more directly relate a specific function to the change in output it results in.   There is so much good decision making in code pipelines --- the {flipbookr} project is about bringing all those cool decisions to light.   
+
+---
+
+The nuts and bolts of getting started with flipbookr can be found [here](https://www.youtube.com/watch?v=8byEq1rMb3c). But it might be useful to hear about The rest of the post is about the experience of designing flipbooks from relative newcomers perspective.  Four of my students were kind enough to agree to contribute their flipbooks and also offer some comments on the experience of writing them.  
+
+<!-- So writing code for to create flipbooks is a little different than writing code only to accomplish a task.  It is more like choreographing an experience.  As much as possible, the creators should try to write the code so that their is feedback as code is revealed.    -->
+
+
+
+
+> Conner's experience:
+
+> Britt's experience:
+
+> Luca's experience:
+
+> Rachel's experience:
